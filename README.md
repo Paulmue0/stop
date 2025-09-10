@@ -8,10 +8,15 @@ A simple shell script to kill any process running on a given TCP port.
 chmod +x script.sh
 ```
 
-In your ~/.zshrc
+In your ~/.zshrc add
 ```bash
 alias stop="/path/to/your/stop.sh"
 ```
+Reload your config
+```bash
+source ~/.zshrc
+```
+
 
 
 ## Usage
